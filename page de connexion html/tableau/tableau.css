@@ -1,0 +1,33 @@
+
+body
+{
+	margin : 100px auto;
+	margin-left: 100px auto;
+}
+
+table
+{
+	border-collapse:collapse;
+	border:1px solid #edefe8;
+	width:auto;
+	margin:150px auto;
+
+}
+
+#ligne1
+{
+	background-color:#4978FE;
+	color:white;
+	text-align:left;
+}
+
+#ligne3
+{
+	background-color : #BCC3D7;
+}
+td, tr
+{
+	padding: 15px 20px;
+	border-collapse:collapse;
+	border:1px solid #edefe8;
+}

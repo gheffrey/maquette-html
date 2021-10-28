@@ -1,0 +1,54 @@
+#gauche
+{
+	text-align: left;
+	text-decoration: auto;
+	color: white;
+}
+#droite
+{
+	text-align: right;
+	text-decoration: auto;
+	color: white;
+}
+#bouton
+{
+	background-color: #4978FE;
+	margin-left: 70%;
+}
+
+body
+{
+	margin : 100px auto;
+	margin-left: 100px auto;
+}
+
+table
+{
+	border-collapse:collapse;
+	border:1px solid #edefe8;
+	width:auto;
+	margin:150px auto;
+	padding: 30px;
+	text-align: left;
+}
+td, tr
+{
+	padding: 15px 20px;
+	
+}
+thead, tbody
+{
+	border-collapse:collapse;
+	border:1px solid #edefe8;
+
+}
+h2
+{
+	text-align: left;
+	color: #FFFFFF;
+}
+thead, tfoot
+{
+	background-color: #4978FE;
+}
+

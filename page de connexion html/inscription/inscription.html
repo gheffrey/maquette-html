@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="inscription.css" />
+	<title>Inscription</title>
+</head>
+	<body align="center">
+	<table>
+		<thead>
+			<tr>
+				<th>
+			<h2>Inscription</h2>
+				</th>
+			</tr>
+		</thead>
+			<form method="POST" action="traitement.php">
+
+				<p>
+					<tr>
+						<td>
+					<label>login</label><br>
+					<input type="text" name="login" size="30"><br>
+						</td>
+					</tr>
+
+					<tr>
+						<td>	
+					<label>email</label><br>
+					<input type="email" name="mail" placeholder="exemple@gmail.com" size="30"><br>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+					<label>mot de passe</label><br>
+					<input type="text" name="mdp" size="30"><br>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+					<label>confirmation mot de passe</label><br>
+					<input type="text" name="mdp" size="30"><br>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<input type="button" id="bouton" value="M'inscrire"><br>
+						</td>
+					</tr>
+						
+				</p>
+			</form>
+			<tfoot>
+				<tr>
+				<td>
+			<a href="../connexion/connexion.html" id="gauche">se connecter</a>
+			&nbsp
+			<a href="../mdp/mdp.html" id="droite">mot de passe oublié</a>
+				</td>
+				</tr>
+			</tfoot>
+		
+		</table>
+	</body>
+</html>
